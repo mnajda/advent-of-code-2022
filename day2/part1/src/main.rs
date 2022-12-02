@@ -6,26 +6,36 @@ fn load_file(path: &String) -> Vec<(char, char)> {
     contents
         .split("\n")
         .map(|row| row.split(' ').collect::<Vec<_>>())
-        .map (|row| (row[0].chars().next().unwrap(), row[1].chars().next().unwrap()))
+        .map(|row| {
+            (
+                row[0].chars().next().unwrap(),
+                row[1].chars().next().unwrap(),
+            )
+        })
         .collect()
 }
 
 fn solve(input: Vec<(char, char)>) -> i64 {
-    input.iter().map(
-        |round| {
-            match round {
-                ('A', 'X') => 1 + 3,
-                ('A', 'Y') => 2 + 6,
-                ('A', 'Z') => 3 + 0,
-                ('B', 'X') => 1 + 0,
-                ('B', 'Y') => 2 + 3,
-                ('B', 'Z') => 3 + 6,
-                ('C', 'X') => 1 + 6,
-                ('C', 'Y') => 2 + 0,
-                ('C', 'Z') => 3 + 3,
-                _ => unreachable!()
-            }
-        }).sum()
+    input
+        .iter()
+        .map(|round| {
+            let shape_score = match round.1 {
+                'Z' => 3,
+                'Y' => 2,
+                'X' => 1,
+                _ => unreachable!(),
+            };
+
+            let round_score = match round {
+                ('A', 'Y') | ('B', 'Z') | ('C', 'X') => 6,
+                ('A', 'X') | ('B', 'Y') | ('C', 'Z') => 3,
+                ('A', 'Z') | ('B', 'X') | ('C', 'Y') => 0,
+                _ => unreachable!(),
+            };
+
+            shape_score + round_score
+        })
+        .sum()
 }
 
 fn main() {
