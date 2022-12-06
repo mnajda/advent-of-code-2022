@@ -10,7 +10,6 @@ proc first_marker(input: string): int =
 
     return 0
 
-
 let filepath = paramStr(1)
 let input = readFile(filepath)
 
