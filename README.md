@@ -11,3 +11,4 @@ Solutions for [Advent of Code 2022](https://adventofcode.com/2022).
 | 3 | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | F# | [day3](https://github.com/mnajda/advent-of-code-2022/tree/main/day3) |
 | 4 | [Camp Cleanup](https://adventofcode.com/2022/day/4) | Python | [day4](https://github.com/mnajda/advent-of-code-2022/tree/main/day4) |
 | 5 | [Supply Stacks](https://adventofcode.com/2022/day/5) | Go | [day5](https://github.com/mnajda/advent-of-code-2022/tree/main/day5) |
+| 6 | [Tuning Trouble](https://adventofcode.com/2022/day/6) | Nim | [day6](https://github.com/mnajda/advent-of-code-2022/tree/main/day6) |
