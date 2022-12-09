@@ -14,3 +14,4 @@ Solutions for [Advent of Code 2022](https://adventofcode.com/2022).
 | 6 | [Tuning Trouble](https://adventofcode.com/2022/day/6) | Nim | [day6](https://github.com/mnajda/advent-of-code-2022/tree/main/day6) |
 | 7 | [No Space Left On Device](https://adventofcode.com/2022/day/7) | C# | [day7](https://github.com/mnajda/advent-of-code-2022/tree/main/day7) |
 | 8 | [Treetop Tree House](https://adventofcode.com/2022/day/8) | Julia | [day8](https://github.com/mnajda/advent-of-code-2022/tree/main/day8) |
+| 9 | [Rope Bridge](https://adventofcode.com/2022/day/9) | Python | [day9](https://github.com/mnajda/advent-of-code-2022/tree/main/day9) |
