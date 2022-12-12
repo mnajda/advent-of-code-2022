@@ -17,3 +17,4 @@ Solutions for [Advent of Code 2022](https://adventofcode.com/2022).
 | 9 | [Rope Bridge](https://adventofcode.com/2022/day/9) | Python | [day9](https://github.com/mnajda/advent-of-code-2022/tree/main/day9) |
 | 10 | [Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | Scala | [day10](https://github.com/mnajda/advent-of-code-2022/tree/main/day10) |
 | 11 | [Monkey in the Middle](https://adventofcode.com/2022/day/11) | C++ | [day11](https://github.com/mnajda/advent-of-code-2022/tree/main/day11) |
+| 12 | [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | Rust | [day12](https://github.com/mnajda/advent-of-code-2022/tree/main/day12) |
